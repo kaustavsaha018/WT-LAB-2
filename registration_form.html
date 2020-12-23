@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+       table, th, td {
+            border: 0.5px solid black;
+            border-collapse: collapse;
+        } 
+    </style>
+</head>
+<body>
+    <h2>Registration Form:-</h2>
+    <img src="photo.jpg" alt="Image cannot be loaded" width="100" height="130" style="float:right">
+    <form action="">
+        <label for="my_name">Name : </label>
+        <input type="text">
+        <br><br>
+        <label for="my_branch">Branch : </label>
+        <input type="text">
+        <br><br>
+        <label for="my_roll">Roll No : </label>
+        <input type="number">
+        <br><br>
+        <label for="my_qualification">Qualification : </label>
+        <br><br>
+        <table style="text-align: center";>
+            <tr>
+                <th>Course</th>
+                <th>Name of School/College</th>
+                <th>% of Mark/Division</th>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+            </tr>
+        </table>
+        <br><br>
+        <label for="my_interest">Interest : </label>
+        <br>
+        <input type="radio" value="Playing Cricket">
+        <label for="my_cricket">Playing Cricket</label>
+        <br>
+        <input type="radio" value="Singing Song">
+        <label for="my_song">Singing Song</label>
+        <br><br>
+        <label for="comment">Any Comments: </label>
+        <br>
+        <textarea name="write" id="" cols="20" rows="5"></textarea>
+    </form>
+    <a href="thank_you.html">Finish</a>
+</body>
+</html>
